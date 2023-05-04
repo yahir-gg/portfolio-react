@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*----------------------H O M E -------*/
+.name h2{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.container{
+    display: flex;
+}
+.data_container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anclas{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.anclas a, .about-text p a{
+    color: black;
+}
+.about-text p a{
+    text-decoration: underline;
+}
+.anclas a, .menu ul li a{
+    margin: 10px;
+    font-size: 20px;
+}
+.festival{
+    /*border: 3px red solid;*/
+    width: 50%;
+}
+.festival img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+/*----------------------P R O J E C T S -------*/
+.container-cards{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.card{
+    margin: 10px;
+    width: 25%;
+}
+/*---------------------------------Header*/
+.header-container{
+    margin: 0px 30px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.name{
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+.name a{
+    font-size: 32px;
+    color: #252525;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu nav{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+li{
+    display: flex;
+    justify-content: center;
+}
+.menu ul li{
+    width: 130px;
+    margin-left: 20px;
+}
+.menu ul li a{
+    color: #7a7a7a;
+}
+a{
+    text-decoration: none;
+}
+.header-content{
+    margin: 0;
+    padding: 30px 0 30px;
+}
+
+/*---------------------------------- A B O U T --------*/
+.about{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-text{
+    max-width: 900px;
+    padding: 50px;
+    margin: auto;
+}
+.about-text p{
+    margin: 20px;
+    font-size: 22px;
+}
+
+/*------------------------------------- P R O J E C T S -------*/
+.card, .form-container, .container-contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0px 4px rgba(0,0,0,.2);
+    margin: 10px;
+    padding: 20px;
+    max-width: 500px;
+  }
+  .card-title{
+    padding: 5px;
+    background-color: #dad7d7;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .card h2 {
+    color: #252525;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 3px;
+  }
+  
+  .card a {
+    color: #555;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color .2s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: #252525;
+  }
+  
+  /*---------------------------*/
+
+  /* Estilos para el contenedor del formulario */
+
+  
+  /* Estilos para el formulario */
+  
+  
+  /* Estilos para las etiquetas */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para los campos de entrada */
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  input, textarea{
+    width: 95%;
+  }
+  /* Estilos para el botón de envío */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: default;
+  }
+  /* Estilos para el contenedor del formulario */
+.form-container {
+    max-width: 500px; /* ajusta el ancho máximo según tu diseño */
+    margin: 0 auto; /* centra el contenedor horizontalmente */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+  }
+  .container-contact-card{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contact-card{
+    display: flex;
+    width: 210px;
+    height: 54px;
+  }
+.contact-card .icon img{
+    width: 50px;
+    height: 50px;
+}
+.contact-text{
+    margin: auto 0;
+}
