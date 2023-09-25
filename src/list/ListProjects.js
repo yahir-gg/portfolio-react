@@ -24,7 +24,7 @@ export let projects =
         title: "App de control de finanzas",
         description: `Resultado del curso practico de Vue en el cual se puede controlar
         las finanzas a traves de una aplicacion desarrollada con Vue`,
-        repository: "NA",
+        repository: "En curso",
         app: "NA"
     },
     {
@@ -63,7 +63,7 @@ export let projects =
         id: "5",
         title: "React Shop",
         description: "Resultado del curso practico de react",
-        repository: "Sin repositorio",
+        repository: "https://github.com/yahir-gg/react-shop",
         app: "Sin despliegue"
     },
     {
